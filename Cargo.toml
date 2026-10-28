@@ -1,0 +1,27 @@
+[package]
+name = "atc"
+version = "0.1.0"
+edition = "2024"
+authors = ["Enzo Lombardi <enzinol@gmail.com>"]
+description = "Always-on-top countdown overlay for macOS, launched from the CLI"
+repository = "https://github.com/aovestdipaperino/atc"
+license = "MIT"
+
+[dependencies]
+block2 = "0.6"
+objc2 = "0.6"
+objc2-app-kit = "0.3"
+objc2-foundation = "0.3"
+
+[lints.rust]
+missing_debug_implementations = "warn"
+unsafe_op_in_unsafe_fn = "warn"
+unused_lifetimes = "warn"
+
+[lints.clippy]
+pedantic = { level = "warn", priority = -1 }
+perf = { level = "warn", priority = -1 }
+
+[profile.release]
+strip = true
+lto = true

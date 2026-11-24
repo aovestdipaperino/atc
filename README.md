@@ -1,3 +1,5 @@
+[![GitHub stars](https://img.shields.io/github/stars/aovestdipaperino/atc?logo=github&color=brightgreen)](https://github.com/aovestdipaperino/atc/stargazers)
+
 <p align="center">
   <img src="assets/logo.svg" width="160" alt="atc logo">
 </p>
